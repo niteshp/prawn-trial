@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  root 'orders#index'
+  root 'reports#index'
 
   resources :orders
+  resources :reports
 end

@@ -1,0 +1,6 @@
+<h1>Reports</h1>
+<ul>
+<% @reports.each do |report| %>
+  <li><%= link_to "Order \##{report.report_number}", report %></li>
+<% end %>
+</ul>
